@@ -13,6 +13,7 @@ const UserProfile = (props) => {
             props.data.map (content =>(
               <li>
                 <span><strong>ID:</strong> {content._id.$oid}</span>
+                <span> <strong> Name: {content.PROVIDER_NAME}</strong></span>
                 <NewStarating />
               
               </li>
